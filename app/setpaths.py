@@ -1,0 +1,17 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import sys
+import pprint
+import pyotherside
+
+def set_env_paths():
+    sys.path.insert(1,'./python-files')
+    sys.path.insert(1,'lib/python3.4')
+    sys.path.insert(1,'lib/python3.4/lib-dynload')
+    sys.path.insert(1,'lib/python3.4/plat-arm-linux-gnueabihf')
+    sys.path.insert(1,'lib/python3.4/plat-i386-linux-gnu')
+    sys.path.insert(1,'lib/python3.4/plat-x86_64-linux-gnu')
+
+    pyotherside.send('Using PyOtherSide version ' + pyotherside.version)
+    

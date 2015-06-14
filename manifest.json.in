@@ -1,0 +1,15 @@
+{
+    "name": "ubuntuapppythonproject.first-last",
+    "description": "description of UbuntuAppPythonProject",
+    "architecture": "@CLICK_ARCH@",
+    "title": "UbuntuAppPythonProject",
+    "hooks": {
+        "app": {
+            "apparmor": "app/app.apparmor",
+            "desktop": "app/app.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "FirstName LastName <first.last@ubuntu.com>",
+    "framework": "ubuntu-sdk-15.04"
+}
